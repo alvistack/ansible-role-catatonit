@@ -1,7 +1,7 @@
 # Ansible Role for catatonit
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-catatonit.svg)](https://travis-ci.com/alvistack/ansible-role-catatonit)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-catatonit.svg)](https://github.com/alvistack/ansible-role-catatonit)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-catatonit.svg)](https://github.com/alvistack/ansible-role-catatonit/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-catatonit.svg)](https://github.com/alvistack/ansible-role-catatonit/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.catatonit-blue.svg)](https://galaxy.ansible.com/alvistack/catatonit)
 
