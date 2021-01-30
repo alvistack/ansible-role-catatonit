@@ -55,6 +55,7 @@
   loop:
     - { dest: "/usr/local/bin" }
     - { dest: "{{ catatonit_download.dest | dirname }}" }
+  register: file_result
 
 - name: download archive
   vars:
@@ -67,12 +68,14 @@
     timeout: 300
   loop:
     - "{{ catatonit_download }}"
+  when: file_result is changed
   register: get_url_result
   until: get_url_result is succeeded
 
 - name: unarchive package
   shell: |
     set -euo pipefail
+    exec &> >(tee -a {{ catatonit_download.dest }}.log)
     cd /usr/local/bin
     TMP_DIR="$(mktemp -d)" \
       && cp {{ catatonit_download.dest }} $TMP_DIR/catatonit \
@@ -82,7 +85,7 @@
       && rm -rf $TMP_DIR
   args:
     executable: "/bin/bash"
-  when: get_url_result is changed
+    creates: "{{ catatonit_download.dest }}.log"
 
 - name: prepare files
   file:
