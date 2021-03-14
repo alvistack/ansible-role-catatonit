@@ -18,4 +18,4 @@ _catatonit_download:
   "0.1.5":
     url: "http://github.com/openSUSE/catatonit/releases/download/v0.1.5/catatonit.x86_64"
     dest: "/var/cache/ansible/e1bb9f51b149d4cf8444001d33cb503dd0d465cf45c6dc27ceb1d1ff4a398193/catatonit.x86_64"
-    checksum: "sha256:e1bb9f51b149d4cf8444001d33cb503dd0d465cf45c6dc27ceb1d1ff4a398193"
+    sha256sum: "e1bb9f51b149d4cf8444001d33cb503dd0d465cf45c6dc27ceb1d1ff4a398193"
