@@ -14,8 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# catatonit release.
+catatonit_release: "0.1"
+
 # catatonit version.
-catatonit_version: "0.1.5"
+catatonit_version: "{{ _catatonit_version[catatonit_release] }}"
 
 # catatonit download details.
 catatonit_download: "{{ _catatonit_download[catatonit_version] }}"

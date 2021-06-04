@@ -14,6 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+_catatonit_version:
+  "0.1": "0.1.5"
+
 _catatonit_download:
   "0.1.5":
     url: "http://github.com/openSUSE/catatonit/releases/download/v0.1.5/catatonit.x86_64"
