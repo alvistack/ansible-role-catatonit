@@ -13,12 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# catatonit release.
-catatonit_release: "0.1"
-
-# catatonit version.
-catatonit_version: "{{ _catatonit_version[catatonit_release] }}"
-
-# catatonit download details.
-catatonit_download: "{{ _catatonit_download[catatonit_version] }}"
