@@ -13,12 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-_catatonit_version:
-  "0.1": "0.1.5"
-
-_catatonit_download:
-  "0.1.5":
-    url: "http://github.com/openSUSE/catatonit/releases/download/v0.1.5/catatonit.x86_64"
-    dest: "/var/cache/ansible/e1bb9f51b149d4cf8444001d33cb503dd0d465cf45c6dc27ceb1d1ff4a398193/catatonit.x86_64"
-    checksum: "e1bb9f51b149d4cf8444001d33cb503dd0d465cf45c6dc27ceb1d1ff4a398193"
