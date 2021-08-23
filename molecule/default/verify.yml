@@ -19,8 +19,6 @@
   become: true
   tasks:
     - name: catatonit --version
-      environment:
-        PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
       command: catatonit --version
       register: result
       changed_when: result is not succeeded
