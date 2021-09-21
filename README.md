@@ -1,5 +1,7 @@
 # Ansible Role for catatonit
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-catatonit/master)](https://gitlab.com/alvistack/ansible-role-catatonit/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-catatonit.svg)](https://github.com/alvistack/ansible-role-catatonit/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-catatonit.svg)](https://github.com/alvistack/ansible-role-catatonit/blob/master/LICENSE)
