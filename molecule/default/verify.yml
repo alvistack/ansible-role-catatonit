@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: catatonit --version
-      command: catatonit --version
+      ansible.builtin.command: catatonit --version
       register: result
       changed_when: result is not succeeded
